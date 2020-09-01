@@ -6,7 +6,7 @@ email: aguai.zou@gmail.com
 description: "关于生活、程序、统计与AI | 邹凯峰，Deep learning, Image processing & Artificial intelligence, PhD | 这里是 @Kzou邹凯峰 的自留地。"
 keyword: ""
 url: "https://github.com/ZOUKaifeng/zoukaifeng.github.io"              # your host, for absolute URL
-baseurl: "https://github.com/ZOUKaifeng/zoukaifeng.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
