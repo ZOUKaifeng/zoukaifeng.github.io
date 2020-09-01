@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kzone</title>
+    <description>关于观点、程序、统计与AI | 邹凯峰，Deep learning, Image processing &amp; Artificial intelligence, PhD | 这里是 @Kzou邹凯峰 的自留地。</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 01 Sep 2020 14:41:41 +0200</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 14:41:41 +0200</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Hello 2020</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“ ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;作为一个程序员，我总算拥有了自己的个人主页。其实很早之前就想做个人网页，但是我一直懒得动手，所以计划搁浅了很久。之前有申请过一个公众号，但是公众号管理实在麻烦，很不方便，于是再发布一篇学习笔记之后也就没了后续。最近偶然发现了&lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Hux&lt;/a&gt;的模板很好看，于是手痒起来。&lt;/p&gt;
+
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;关于动机。&lt;/strong&gt;
+现在绝大多数中文论坛敏感程度太高，并没有一个理性讨论的站点，所以我企图打造一个自己的理想国，一个可以让自己自由没有限制的可以随意表达观点的地方。另一方面也是想做一个技术博客，记录一些学习笔记，开源一些自己做的项目代码（如果有的话）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于Kzone。&lt;/strong&gt;
+一开始我打算叫做Kzou’s blog，后来觉得kzou发音很像Kzone，于是blog也不需要了，直接用Kzone取双关意。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于coding。&lt;/strong&gt;
+这个网页搭建使用的是Jekyll，模板来源于hux的一个很漂亮的开源项目，其中添加了自己的修改，如果想使用我在前文放了源代码链接。但由于我是初学者，很多地方还没有琢磨透，准备后续慢慢改进。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于内容。&lt;/strong&gt;
+我现在想写一些自己的想法，游记还有学习笔记。我还想接受大家的投稿，争取打造成一个开放的平台。（画个饼又不花钱）。
+欢迎有思考有深度的灵魂，愿你我都能在这荒芜的世界里做一个有趣的人。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 31 Aug 2020 14:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2020/08/31/hello/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/08/31/hello/</guid>
+        
+        <category>生活</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
