@@ -18,7 +18,7 @@ In our daily life, the most common media we see are images, videos and sounds. O
 
 <img src="/img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="400" height="100" />
 <img src="/img/convolution%20on%202d%20image.jpg" title="Fig 2. Convolution on 2d image" width="200" height="100" />
-<--![](/img/euclidean_data_structure.png)-->
+<!--[](/img/euclidean_data_structure.png)-->
 
 **Spectral method**
 
