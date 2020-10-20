@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Graph representation learning"
-subtitle:   " \" Graph convolution \""
+subtitle:   " \" part 1: Graph convolution -- spectral method\""
 date:       2020-10-20 12:00:00
 author:     "Kzou"
 header-img: "img/3d_mesh.jpg"
@@ -11,7 +11,7 @@ tags:
     - Graph
 ---
 
-> “ My first tech blog”
+> “ My first tech blog ”
 
 ## Introduction
 
@@ -106,15 +106,26 @@ Then we can easily get the inverse Fourier transform of f which is $f= 𝑈\hat{
 
 After obtaining the graph convolution, we then can calculate the graph convolution based on spectral domain according to **convolution theorem**. We introduce a convolutional kernel $h$ to make it convolute with the graph $f$, then we have:
 
-$(f * h)_{G}=U\left(\left(U^{T} h\right) \odot\left(U^{T} f\right)\right)$
+$$(f * h)_{G}=U\left(\left(U^{T} h\right) \odot\left(U^{T} f\right)\right)$$
 
 
 Where $𝑈^{𝑇}ℎ$, $𝑈^{𝑇}𝑓$ represent the Fourier transform of the convolutional kernel and the vertices of graph respectively, then the convolution operator * can be defined as an inverse Fourier transform of a Hadamard product.
 
 
 **Chebyshev graph convolution.** The above equation based on convolution theorom is computational expensive with a large number of vertices, because the kernels are global and have a large number of parameters. The kernel size is the same as the input signal. Such a kernel would require a lot of computational power if applied to deep learning. 
+The problem is solved by using recursive Chebyshev polynomials to formulate mesh filtering with a kernel $ℎ_{\theta}$. 
+
+$$
+\hat{h}(\Lambda)=\sum_{k=0}^{N} \beta_{k} T_{k}(\hat{\Lambda})
+$$
+
+Where $\hat{\Lambda}$ is the eigenvalue. $𝛽_𝑘$ is a vector of the Chebyshev coefficients. After replacing the convolutional kernel with a Chebyshev polynomial we have：
+
+$$
+(f * h)_{G}=\sum_{k=0}^{N} \beta_{k} T_{k}\left(U \Lambda U^{T}\right) f=\sum_{k=0}^{N} \beta_{k} T_{k}(\hat{L}) f
+$$
 
 
-on the graph:
+Where $\hat{L}=\frac{2}{\lambda_{\max }} L-I_{N}$ 𝑁 is the scaled Laplacian. $𝑇_𝑘$ is the Chebyshev polynomial of order $k$ that can be computed recursively as $T_{k}(x)=2 x T_{k-1}(x)-T_{k-2}(x)$ with $T_0 = 1, T_1 = x$.  $𝛽_𝑘$ represent the trainable parameters with shape 𝐹𝑖𝑛 × 𝐹𝑜𝑢𝑡. Thus, the convolutional kernel has only K learnable parameters, and in general K is much less than N which is the number of vertices. The complexity of the convolution is great reduced. 
 
-## Spatial method
+## Code
