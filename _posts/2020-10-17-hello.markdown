@@ -4,7 +4,7 @@ title:      "Graph representation learning"
 subtitle:   " \" Graph convolution \""
 date:       2020-08-31 12:00:00
 author:     "Kzou"
-header-img: "img/post-2020-wp.jpg"
+header-img: "img/3d_mesh.jpg"
 catalog: true
 tags:
     - Tech
@@ -16,7 +16,7 @@ tags:
 
 In our daily life, the most common media we see are images, videos and sounds. One feature of this data is that they are neatly arranged. For example, the pixels of an image can be represented by a matrix which is an an underlying Euclidean or grid-like structure (Fig 1.). Thanks to this property, convolutional neural networks have had great success with 2d picture and speech data. (Fig 2.)<br>
 
-<img src="img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="50" height="50" />
+<img src="https://github.com/ZOUKaifeng/zoukaifeng.github.io/blob/master/img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="200" height="50" />
 <img src="img/convolution on 2d image.jpg" title="Fig 2. Convolution on 2d image" width="50" height="50" />
 
 
