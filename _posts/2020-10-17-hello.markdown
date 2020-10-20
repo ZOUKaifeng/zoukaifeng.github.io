@@ -4,7 +4,7 @@ title:      "Graph representation learning"
 subtitle:   " \" Graph convolution \""
 date:       2020-08-31 12:00:00
 author:     "Kzou"
-header-img: "img/3d_mesh.jpg"
+header-img: "img/3d-mesh.jpg"
 catalog: true
 tags:
     - Tech
