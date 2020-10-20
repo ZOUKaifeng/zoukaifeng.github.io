@@ -72,6 +72,42 @@ The Laplacian matrix can be decomposed as $L=U \Lambda U^{T}$, as it’s a symme
 **Fourier Transform on the graph** We know the traditional Fourier Transform is defined as
 $$F(\omega)=\mathcal{F}[f(t)]=\int f(t) e^{-i \omega t} d t$$
 
-It’s the integral of the signal $f(t)$ with the basis function 
+It’s the integral of the signal $f(t)$ with the basis function $e^{-i \omega t}$. Mathematically, $e^{-i \omega t}$ is the eigne function of the Laplace operator and $\omega$ is related to the eigen value as $\Delta e^{-i \omega t} = -\omega^{2} e^{-i \omega t}$. With reference to this, while dealing with Graph problems, we can introduce the Laplace
+matrices to define graph Fourier transform. In another word, we just need to find the eigen function and eigen value of laplacien matrix. Then we can obtain:
+$$F\left(\lambda_{l}\right)=\hat{f}\left(\lambda_{l}\right)=\sum_{i}^{N} f(i) u_{l}^{*}(i)$$
+
+Where $f$ is an n-dimension vectors on the graph, and f(i) corresponds one-to-one with the vertices of the graph. And $𝑢_l(𝑖)$ represents the $ith$ component of the $ith$ eignvector. Then the Fourier transform of $f$ of the eigenvalue $𝜆$ is an inner product operation of $f$ with the eigenvector $𝑢_𝑙$ corresponding to $𝜆_𝑙$ which can be written in the form of a matrix product.
+
+$$
+\left(\begin{array}{c}
+\hat{f}\left(\lambda_{1}\right) \\
+\hat{f}\left(\lambda_{2}\right) \\
+\vdots \\
+\hat{f}\left(\lambda_{N}\right)
+\end{array}\right)=\left(\begin{array}{cccc}
+u_{1}(1) & u_{1}(2) & \ldots & u_{1}(N) \\
+u_{2}(1) & u_{2}(2) & \ldots & u_{2}(N) \\
+\vdots & \vdots & \ddots & \vdots \\
+u_{N}(1) & u_{N}(2) & \ldots & u_{N}(N)
+\end{array}\right)\left(\begin{array}{c}
+f(1) \\
+f(2) \\
+\vdots \\
+f(N)
+\end{array}\right)
+$$
+
+The matrix form of the Fourier transform of f on Graph is $\hat{f}=U^{T} f$.
+Then we can easily get the inverse Fourier transform of f which is $f= 𝑈\hat{f}$
+
+
+**Graph convolution.** After obtaining the graph convolution, we then can calculate the graph convolution based on spectral domain according to convolution theorem. We introduce a convolutional kernel $h$ to make it convolute with the graph $f$, then we have:
+
+$(f * h)_{G}=U\left(\left(U^{T} h\right) \odot\left(U^{T} f\right)\right)$
+
+
+
+
+on the graph:
 
 ## Spatial method
