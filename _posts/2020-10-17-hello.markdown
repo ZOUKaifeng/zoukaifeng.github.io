@@ -39,7 +39,7 @@ In our daily life, the most common media we see are images, videos and sounds. O
     padding: 2px;">Fig 2. Convolution on 2d image</div>
 </center>
 
-<<!--<img src="/img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="400" height="100" />-->
+<!--<img src="/img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="400" height="100" />-->
 <!--[](/img/euclidean_data_structure.png)-->
 
 
@@ -61,7 +61,7 @@ In a lot of application of such dataset, such geometric datasets are large and c
 Fortunately, more and more researches show that it's feasible to apply convolution neural network on the graph and even proved that it's a powerful tool in graph representation learning. The graph convolution is divided into two main categories -- spectral method and space method.
 
 **Spectral method**
-We define a mesh as a set of vertices and edges, \begin{equation}G=(V, A)\end{equation}
+We define a mesh as a set of vertices and edges, $G=(V, A)$
 
 
 **Spatial method**
