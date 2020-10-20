@@ -2,7 +2,7 @@
 layout:     post
 title:      "Graph representation learning"
 subtitle:   " \" Graph convolution \""
-date:       2020-08-31 12:00:00
+date:       2020-10-20 12:00:00
 author:     "Kzou"
 header-img: "img/3d_mesh.jpg"
 catalog: true
@@ -19,7 +19,7 @@ In our daily life, the most common media we see are images, videos and sounds. O
 <img src="/img/euclidean_data_structure.png" title="Fig 1. Euclidean data structure" width="400" height="100" />
 
 
-<img src="/img/convolution%20on%202d%20image.jpg" title="Fig 2. Convolution on 2d image" width="400" height="400" />
+<img src="/img/convolution%20on%202d%20image.jpg" title="Fig 2. Convolution on 2d image" width="400" height="200" />
 <!--[](/img/euclidean_data_structure.png)-->
 
 **Spectral method**
