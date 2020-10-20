@@ -63,8 +63,6 @@ Fortunately, more and more researches show that it's feasible to apply convoluti
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 **Spectral method**
-We define a mesh as a set of vertices and edges, $$
-G=(V, A)
-$$
+We define a mesh as a set of vertices and edges, $$G=(V, A)$$
 
 **Spatial method**
