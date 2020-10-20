@@ -13,6 +13,7 @@ tags:
 
 > “ My first tech blog”
 
+##Introduction
 
 In our daily life, the most common media we see are images, videos and sounds. One feature of this data is that they are neatly arranged. For example, the pixels of an image can be represented by a matrix which is an an underlying Euclidean or grid-like structure (Fig 1.). Thanks to this property, convolutional neural networks have had great success with 2d picture. (Fig 2.). <br>
 
@@ -62,9 +63,11 @@ Fortunately, more and more researches show that it's feasible to apply convoluti
 
 <!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>-->
 
-**Spectral method** <br>
+##Spectral method
 We define a mesh as a set of vertices and edges, $G=(V, A)$.  where $V$ represent the set of vertices in Euclidean space. A is a sparse $(0, 1)-matrix$, if i-th point and
 j-th point are connected, $A_{i j} = 1$, otherwise, $A_{i j} = 0$. It shows how the points in the graph are connected, so it's called an adjacency matrix. Given a simple graph $G$ with n vertices, its Laplacien matrix $L_nxn$ is defined as $L=D-A$, where $D$ is the degree matrix, which represent the degree of each vertices in graph $G$ and is computed by $D_{i i}=\sum_{j} A_{i j}$. <br>
 The Laplacian matrix can be decomposed as $L=U \Lambda U^{T}$, as it’s a symmetry matrix. Where $U=\left(\overrightarrow{u_{1}}, \overrightarrow{u_{2}}, \ldots, \overrightarrow{u_{n}}\right)$ is a matrix with column vectors as the eigenvectors of $L$. $\Lambda=\operatorname{diag}\left(\left[\lambda_{0}, \lambda_{1}, \ldots, \lambda_{n}\right]\right)$ is a diagonal matrix of n eigen values. 
+
+**Fourier Transform on the graph**
 
 **Spatial method**
