@@ -61,7 +61,9 @@ In a lot of application of such dataset, such geometric datasets are large and c
 Fortunately, more and more researches show that it's feasible to apply convolution neural network on the graph and even proved that it's a powerful tool in graph representation learning. The graph convolution is divided into two main categories -- spectral method and space method.
 
 **Spectral method**
-We define a mesh as a set of vertices and edges, $$G=(V, A)$$
+We define a mesh as a set of vertices and edges, 
+$x_i^2$
+$$G=(V, A)$$
 
 
 **Spatial method**
