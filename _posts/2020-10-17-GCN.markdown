@@ -133,6 +133,6 @@ Where $\hat{L}=\frac{2}{\lambda_{\max }} L-I_{N}$ 𝑁 is the scaled Laplacian. 
 
 
 **Reference**
-[1] Henaff, M., Bruna, J., LeCun, Y.: Deep convolutional networks on graph-structured data. CoRR abs/1506.05163 (2015)
-[2] Defferrard, M., Bresson, X., Vandergheynst, P.: Convolutional neural networks on graphs with fast localized spectral filtering. In: Advances in Neural Information Processing Systems. pp. 3844–3852 (2016)
-[3] MM Bronstein, J Bruna, Y LeCun, A Szlam, P Vandergheynst. Geometric deep learning: going beyond euclidean data. IEEE Signal Processing Magazine 34 (4), 18-42.
+[1] Henaff, M., Bruna, J., LeCun, Y.: Deep convolutional networks on graph-structured data. CoRR abs/1506.05163 (2015). <br>
+[2] Defferrard, M., Bresson, X., Vandergheynst, P.: Convolutional neural networks on graphs with fast localized spectral filtering. In: Advances in Neural Information Processing Systems. pp. 3844–3852 (2016).  <br>
+[3] MM Bronstein, J Bruna, Y LeCun, A Szlam, P Vandergheynst. Geometric deep learning: going beyond euclidean data. IEEE Signal Processing Magazine 34 (4), 18-42.  <br>
