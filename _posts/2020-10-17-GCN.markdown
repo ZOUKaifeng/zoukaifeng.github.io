@@ -131,6 +131,8 @@ Where $\hat{L}=\frac{2}{\lambda_{\max }} L-I_{N}$ 𝑁 is the scaled Laplacian. 
 ## Code
 
 
+**To be completed...** 
+
 
 **Reference** <br>
 [1] Henaff, M., Bruna, J., LeCun, Y.: Deep convolutional networks on graph-structured data. CoRR abs/1506.05163 (2015). <br>
