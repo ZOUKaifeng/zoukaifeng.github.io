@@ -60,10 +60,11 @@ However, many scientific fields study data with an underlying structure that is 
 In a lot of application of such dataset, such geometric datasets are large and complex, we should consider the feature of each node as well as the connectivity. Anyway, graph is a nature targets for machine learning techology, since important real-world datasets come in the form of graphs or networks. In particular, we would like to use deep learning.
 Fortunately, more and more researches show that it's feasible to apply convolution neural network on the graph and even proved that it's a powerful tool in graph representation learning. The graph convolution is divided into two main categories -- spectral method and space method.
 
-**Spectral method**
-We define a mesh as a set of vertices and edges, 
-$x_i^2$
-$$G=(V, A)$$
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
+**Spectral method**
+We define a mesh as a set of vertices and edges, $$
+G=(V, A)
+$$
 
 **Spatial method**
