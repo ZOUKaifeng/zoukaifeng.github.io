@@ -59,12 +59,12 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: true
+disqus_username: false
 layout: default
-comments: true
+comments: false
 
 # Netease settings
-netease_comment: false
+netease_comment: true
 
 
 
